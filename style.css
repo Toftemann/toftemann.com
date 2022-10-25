@@ -1,48 +1,88 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    margin-left: 450px;
-    margin-right: 450px;
-    background-image: radial-gradient(circle, lightblue, #237bcf);
+  background-color: rgb(103, 184, 231);
 }
 
-h1 {
-    font-size: 70px;
-    text-align: 
+.box {
+  text-align: center;
+  font-family: Roboto;
+  width: 520px;
+  background-color: rgb(212, 212, 212);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.125);
 }
 
+h1,
 h2 {
-    font-size: 22px;
-    margin-top: -50px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-p {
-    font-size: 18px;
-    text-align: left;
-    line-height: 1.8rem;
+.welcome {
+  font-size: 70px;
+  margin-top: 25px;
+  padding-top: 10px;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+.welcome-domain {
+  font-size: 20px;
+  margin-bottom: 40px;
 }
 
-a:hover, a:active {
-    text-decoration: underline;
+.bread-text {
+
 }
 
-.header {
-    text-align: center;
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: none;
+  color: black;
 }
 
-#panda {
-    font-size: 200px;
-    margin-top: 8.4rem;
-    text-align: center;
+a:visited {
+  font-weight: bold;
+  font-style: none;
+  color: black;
 }
 
-#sale {
-    font-size: 18px;
-    margin-top: -2rem;
-    text-align: center;
+a:hover {
+  font-weight: bold;
+  opacity: 0.7;
+  font-style: none;
+}
+
+a:active {
+  font-weight: bold;
+  color: grey;
+  font-style: none;
+}
+
+img {
+  width: 450px;
+  height: 450px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 225px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin: 25 auto;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.125);
+}
+
+.follow-socials {
+  margin-bottom: 10px;
+}
+
+
+.fa-twitter {
+  margin-right: 5px;
+}
+
+.fa-instagram {
+  margin-right: 7px;
 }
