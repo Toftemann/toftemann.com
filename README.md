@@ -1,2 +1,2 @@
 # toftemann.com
-My official website. Not used for anything. It's just there.
+This is my webiste. Nothing special to see here... I'm still learning HTML and CSS.
